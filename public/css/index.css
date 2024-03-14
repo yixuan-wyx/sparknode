@@ -1,0 +1,11 @@
+a:hover {
+    color:hsl(204, 86%, 53%);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: antiquewhite;
+    background-color: transparent;
+    text-decoration: none;
+  }

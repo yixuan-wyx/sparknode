@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <script src = "./data/products.json"></script>
+  <title>BK PETS</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar is-light is-fixed-top is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href=#>
+        <b>BK PETS</b>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class = "navbar-start">
+        <div class="navbar-item">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Our Products
+            </a>
+            <div class="navbar-dropdown">
+              <a href="#products-glance" class="navbar-item">
+                Marsshower Oatmeal & Aloe Pet Shampoo
+              </a>
+              <a href="#products-glance" class="navbar-item">
+                Reynolds Bees Tearless Puppy Shampoo
+              </a>
+              <a href="#products-glance" class="navbar-item">
+                HotClean Medicated Itch Shampoo
+              </a>
+              <a href="#products-glance" class="navbar-item">
+                Fine & Nice Pro Style Deodorizing Shampoo (Coming soon)
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <a class="button is-light" href="#reviews-glance">
+            Reviews
+          </a>
+          <a class="button is-light">
+            FAQ
+          </a>
+          <a class="button is-light" href="#footer-section">
+            Contact
+          </a>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+            <a class="button is-light">
+              Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cover section -->
+  <div class="columns has-background-light p-6 is-vcentered" style="height: 700px;">
+    <div class="column is-6">
+      <img src="./assets/dog_group.png" alt="a picture of a group of dogs" class="px-6">
+    </div>
+    <div class="column is-6 ml-10">
+      <div class="title is-2 has-text-dark is-spaced">
+        The best products for your dog
+      </div>
+      <div class="subtitle has-text-dark">
+        Because your dogs deserve to be happy too
+      </div>
+      <div class="buttons">
+        <a class="button is-info" href="#products-glance"><strong>Learn More</strong></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product description section-->
+  <div class="columns is-multiline has-background-white p-6 is-vcentered" id="products-glance">
+    <div class="column is-2">
+      <div class="title is-2 has-text-dark is-spaced">
+        See what you can do for your 
+        <span style="color:hsl(171, 100%, 41%);">fluffy friends</span>
+      </div>
+    </div>
+    <div class="column" id="products"></div>
+    <div class="column is-12">
+      <div class="buttons is-centered">
+        <a class="button">More Treats Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authorities and Customer reviews section-->
+  <div class="columns is-multiline has-background-light p-6 is-vcentered" id="reviews-glance">
+    <div class="column is-6">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-4 is-spaced">
+            "Not just clean, but radiant: Discover the dog shampoo that has pet parents and groomers buzzing."
+          </p>
+          <p class="subtitle">
+            Pet Care Magazine
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              View on <a>Pet Care Magazine</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Share on <a>Facebook</a>
+            </span>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div class="column is-6">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-4 is-spaced">
+            “Harnessing the power of nature to keep your dog healthy and clean – this shampoo is a game-changer.”
+          </p>
+          <p class="subtitle">
+            Pet Lovers Magazine
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              View on <a>Pet Lovers Magazine</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Share on <a href="#">Facebook</a>
+            </span>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div class="column is-8 is-offset-4">
+      <p>WHAT CUSTOMERS ARE SAYING ABOUT BK PETS</p>
+    </div>
+    <div class="column is-12" id="reviews"></div>
+    <div class="column">
+      <div class="buttons is-centered">
+        <a class="button">Read All Customer Reviews</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="columns p-6 is-vcentered" id="footer-section">
+      <div class="column is-4">
+        <p><b>BK PETS</b></p>
+        <p><a>Marsshower Oatmeal & Aloe Pet Shampoo</a></p>
+        <p><a>Reynolds Bees Tearless Puppy Shampoo</a></p>
+        <p><a>HotClean Medicated Itch Shampoo</a></p>
+        <p><a>Fine & Nice Pro Style Deodorizing Shampoo</a></p>
+        <br>
+        <p><a href="#reviews-glance">Reviews</a></p>
+        <p><a>FAQ</a></p>
+        <p><a>Cart</a></p>
+      </div>
+      <div class="column is-2">
+        <p><b>Follow US</b></p>
+        <p><a>Facebook</a></p>
+        <p><a>Instagram</a></p>
+        <p><a>YouTube</a></p>
+        <br>
+        <p><a>About US</a></p>
+        <p><a>Shipping</a></p>
+        <p><a>Order Status</a></p>
+        <p><a>Blog</a></p>
+      </div>
+      <div class="column is-6">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Contact Us
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="e.g Alex Smith">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+              </div>
+            </div>
+            <div class="control">
+              <button class="button is-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--JS-->
+  <script src='./js/index.js'></script>
+
+</body>
+  
+</html>

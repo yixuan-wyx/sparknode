@@ -36,6 +36,8 @@ reference: https://budibase.com/blog/how-to-make-a-web-app/#functionality
 
 ## Sketch your web app
 
+Figma: https://www.figma.com/file/d3Ohf423oJxpOj0o5NiW5S/sparknode-wireframe?type=design&node-id=0%3A1&mode=design&t=8VNo9CDAesj7552T-1
+
 ##  Plan your workflow
 
 ## Wireframe the UI
